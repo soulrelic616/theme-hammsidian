@@ -1,0 +1,41 @@
+{
+	"name": "theme-hammsidian",
+	"displayName": "Son of Hammsidian Theme",
+	"description": "Son of Hammsidian Theme for VS Code",
+	"version": "0.3.1",
+	"engines": {
+		"vscode": "^1.20.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/rprouse/theme-hammsidian"
+	},
+	"bugs": {
+		"url": "https://github.com/rprouse/theme-hammsidian/issues"
+	},
+	"keywords": [
+		"hammsidian",
+		"son of hammsidian",
+		"theme",
+		"other"
+	],
+	"icon": "icon.png",
+	"publisher": "rprouse",
+	"contributes": {
+		"themes": [
+			{
+				"label": "Son of Hammsidian",
+				"uiTheme": "vs-dark",
+				"path": "./themes/son-of-hammsidian-color-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		//"id": "ee89d0b0-75c8-4afa-ad72-30274e4e54e7",
+		//"publisherId": "b075e430-35f2-4fc1-aa24-001af930ba49",
+		"publisherDisplayName": "Bernardo Baldiviezo"
+	}
+}

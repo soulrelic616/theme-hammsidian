@@ -2,8 +2,8 @@
 	"tokenColors": [
 		{
 			"settings": {
-				"background": "#22282A",
-				"foreground": "#F1F2F3"
+				"background": "#293134",
+				"foreground": "#bcbcbc"
 			}
 		},
 		{
@@ -26,7 +26,7 @@
 			],
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#F1F2F3"
+				"foreground": "#bcbcbc"
 			}
 		},
 		{
@@ -91,7 +91,7 @@
 			],
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#EC7600"
+				"foreground": "#ef6500"
 			}
 		},
 		{
@@ -147,19 +147,19 @@
 		}
 	],
 	"colors": {
-		"editor.background": "#22282A",
-		"editor.foreground": "#F1F2F3",
+		"editor.background": "#293134",
+		"editor.foreground": "#bcbcbc",
 		"editor.lineHighlightBackground": "#373a3f",
 		"editor.selectionBackground": "#3d4c4e",
     "editor.selectionHighlightBackground": "#303b3d",
-    "editorCursor.foreground": "#AEAFAD",
-    "editorGutter.background": "#22282A",
+    "editorCursor.foreground": "#bcbcbc",
+    "editorGutter.background": "#1b1b1b",
     "editorIndentGuide.background": "#343b3f",
     "editorRuler.foreground": "#343b3f",
-    "editorError.foreground": "#942323",
-    "editorWarning.foreground": "#93C763",
+    "editorError.foreground": "#c94a4a",
+    "editorWarning.foreground": "#93c763",
     "editorInfo.foreground": "#4B4E55",
 		"editorWhitespace.foreground": "#4B4E55"
 	},
-	"name": "Son of Obsidian"
+	"name": "Son of Hammsidian"
 }

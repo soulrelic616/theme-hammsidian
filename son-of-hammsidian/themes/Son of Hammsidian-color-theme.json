@@ -46,7 +46,9 @@
 				"string.other.link",
 				"entity.name.tag",
 				"entity.name.filename.find-in-files",
-				"variable.other.readwrite"
+				"variable.other.readwrite",
+				"meta.block",
+				"variable.other.object"
 			],
 			"settings": {
 				"foreground": "#bcbcbc"
@@ -74,6 +76,16 @@
 			"settings": {
 				"fontStyle": "",
 				"foreground": "#FF9E3D"
+			}
+		},
+		{
+			"name": "Support functions",
+			"scope": [
+				"support.function.console",
+				"entity.name.function"
+			],
+			"settings": {
+				"foreground": "#8c8cb4",
 			}
 		},
 		{
@@ -160,11 +172,20 @@
 				"storage",
 				"entity.name.tag.css",
 				"constant.language",
-				"keyword.operator"
 			],
 			"settings": {
 				"fontStyle": "",
 				"foreground": "#93C763"
+			}
+		},
+		{
+			"name": "Operators",
+			"scope": [
+				"keyword.operator"
+			],
+			"settings": {
+				"foreground": "#678CB1",
+				//"fontStyle": "bold"
 			}
 		},
 		{

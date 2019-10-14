@@ -8,7 +8,12 @@
 		},
 		{
 			"name": "Comment",
-			"scope": "comment",
+			"scope": [
+				"comment",
+				"comment.block.documentation.phpdoc.php",
+				//"keyword.other.type.php",
+				// /"meta.other.type.phpdoc.php"
+			],
 			"settings": {
 				"foreground": "#66747B"
 			}
@@ -123,6 +128,26 @@
 			}
 		},
 		{
+			"name": "PHP embedded",
+			"scope": [
+				"punctuation.section.embedded",
+			],
+			"settings": {
+				"foreground": "#8c8cb4",
+			}
+		},
+		{
+			"name": "PHP functions",
+			"scope": [
+				"entity.name.function.php",
+				"meta.function-call.php",
+				"punctuation.terminator.expression.php"
+			],
+			"settings": {
+				"foreground": "#bcbcbc",
+			}
+		},
+		{
 			"name": "IDs",
 			"scope": [
 				"entity.other.attribute-name.id"
@@ -138,6 +163,16 @@
 			],
 			"settings": {
 				"foreground": "#678CB1"
+			}
+		},
+		{
+			"name": "Property lists",
+			"scope": [
+				"support.type.property-name.css",
+				//"meta.property-list.css"
+			],
+			"settings": {
+				"foreground": "#8c8cb4",
 			}
 		},
 		{
@@ -244,6 +279,17 @@
 				"background": "#a082bd",
 				"fontStyle": "",
 				"foreground": "#ffffff"
+			}
+		},
+		{
+			"name": "Illegal invalid errors",
+			"scope": [
+				"invalid.illegal.unrecognized-tag",
+				"invalid.illegal.character-not-allowed-here"
+			],
+			"settings": {
+				"foreground": "#FF0000",
+				"fontStyle": "bold"
 			}
 		}
 	],

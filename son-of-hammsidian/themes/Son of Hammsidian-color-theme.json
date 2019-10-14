@@ -45,10 +45,11 @@
 				"support.other.variable",
 				"string.other.link",
 				"entity.name.tag",
-				"entity.name.filename.find-in-files"
+				"entity.name.filename.find-in-files",
+				"variable.other.readwrite"
 			],
 			"settings": {
-				"foreground": "#93C763"
+				"foreground": "#bcbcbc"
 			}
 		},
 		{
@@ -121,6 +122,35 @@
 			"settings": {
 				"fontStyle": "",
 				"foreground": "#678CB1"
+			}
+		},
+		{
+			"name": "Language methods",
+			"scope": [
+				"variable.language"
+			],
+			"settings": {
+				//"fontStyle": "italic",
+				"foreground": "#93c763"
+			}
+		},
+		{
+			"name": "Block Level Variables",
+			"scope": [
+				"meta.block variable.other"
+			],
+			"settings": {
+				"foreground": "#8c8cb4"
+			}
+		},
+		{
+			"name": "Object key",
+			"scope": [
+				"meta.object-literal.key",
+				"meta.object.member"
+			],
+			"settings": {
+				"foreground": "#8c8cb4",
 			}
 		},
 		{

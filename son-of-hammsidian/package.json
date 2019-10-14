@@ -1,0 +1,21 @@
+{
+    "name": "son-of-hammsidian",
+    "displayName": "Son of Hammsidian",
+    "description": "Son of Hammsidian port for VSCode",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.36.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Son of Hammsidian",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Son of Hammsidian-color-theme.json"
+            }
+        ]
+    }
+}

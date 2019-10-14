@@ -1,0 +1,183 @@
+{
+	"tokenColors": [
+		{
+			"settings": {
+				"background": "#293134",
+				"foreground": "#bcbcbc"
+			}
+		},
+		{
+			"name": "Comment",
+			"scope": "comment",
+			"settings": {
+				"foreground": "#66747B"
+			}
+		},
+		{
+			"name": "Foreground",
+			"scope": [
+				"keyword.operator.js",
+				"entity.name.tag",
+				"constant.other",
+				"source.php.embedded.line",
+				"variable.parameter",
+				"meta.tag",
+				"declaration.tag"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#93c763"
+			}
+		},
+		{
+			"name": "Attributes",
+			"scope": [
+				"entity.other.attribute-name"
+			],
+			"settings": {
+				"foreground": "#678CB1"
+			}
+		},
+		{
+			"name": "Variable, String Link, Tag Name, FileName",
+			"scope": [
+				"variable",
+				"support.other.variable",
+				"string.other.link",
+				"entity.name.tag",
+				"entity.name.filename.find-in-files"
+			],
+			"settings": {
+				"foreground": "#93C763"
+			}
+		},
+		{
+			"name": "Regular Expression, Links",
+			"scope": [
+				"string.regexp",
+				"meta.link"
+			],
+			"settings": {
+				"foreground": "#81A2BE"
+			}
+		},
+		{
+			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded, Escaped Characters",
+			"scope": [
+				"constant.numeric",
+				"support.constant",
+				"punctuation.section.embedded",
+				"keyword.other.unit",
+				"constant.character.escape"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#FF9E3D"
+			}
+		},
+		{
+			"name": "Class, Support",
+			"scope": [
+				"entity.name.class",
+				"entity.name.type.class",
+				"support.type",
+				"support.class"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#678CB1"
+			}
+		},
+		{
+			"name": "CSS Classes",
+			"scope": [
+				"entity.other.attribute-name.class"
+			],
+			"settings": {
+				"foreground": "#678CB1"
+			}
+		},
+		{
+			"name": "String, Symbols, Inherited Class, Markup Heading",
+			"scope": [
+				"string",
+				"constant.other.symbol",
+				"constant.character",
+				"entity.other.inherited-class",
+				"markup.heading",
+				"constant.numeric.line-number.match.find-in-files"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#EC7600"
+			}
+		},
+		{
+			"name": "variable",
+			"scope": [
+				"entity.name.tag.localname",
+				"entity.name.type.class"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#678CB1"
+			}
+		},
+		{
+			"name": "Keyword",
+			"scope": [
+				"keyword",
+				"storage",
+				"entity.name.tag.css",
+				"constant.language",
+				"keyword.operator"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#93C763"
+			}
+		},
+		{
+			"name": "Invalid",
+			"scope": "invalid",
+			"settings": {
+				"background": "#963a46",
+				"fontStyle": "",
+				"foreground": "#ffffff"
+			}
+		},
+		{
+			"name": "Separator",
+			"scope": "meta.separator",
+			"settings": {
+				"background": "#82A3BF",
+				"foreground": "#ffffff"
+			}
+		},
+		{
+			"name": "Deprecated",
+			"scope": "invalid.deprecated",
+			"settings": {
+				"background": "#a082bd",
+				"fontStyle": "",
+				"foreground": "#ffffff"
+			}
+		}
+	],
+	"colors": {
+		"editor.background": "#293134",
+		"editor.foreground": "#bcbcbc",
+		"editor.lineHighlightBackground": "#373a3f",
+		"editor.selectionBackground": "#3d4c4e",
+    "editor.selectionHighlightBackground": "#303b3d",
+    "editorCursor.foreground": "#bcbcbc",
+    "editorGutter.background": "#1b1b1b",
+    "editorIndentGuide.background": "#343b3f",
+    "editorRuler.foreground": "#343b3f",
+    "editorError.foreground": "#c94a4a",
+    "editorWarning.foreground": "#93c763",
+    "editorInfo.foreground": "#4B4E55",
+		"editorWhitespace.foreground": "#4B4E55"
+	},
+	"name": "Son of Hammsidian"
+}

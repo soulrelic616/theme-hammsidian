@@ -1,7 +1,7 @@
 {
     "name": "son-of-hammsidian",
     "displayName": "Son of Hammsidian",
-    "description": "Son of Hammsidian port for VSCode",
+	"description": "Son of Hammsidian Theme for VS Code, based on  George Raptis's Brackets.io theme - which is a variation of John Hamm's Hammsidian dark theme.",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.36.0"
@@ -9,6 +9,16 @@
     "categories": [
         "Themes"
     ],
+    "keywords": [
+		"hammsidian",
+		"obsidian",
+		"son of hammsidian",
+		"son of obsidian",
+		"theme",
+		"other"
+	],
+	"icon": "icon.png",
+	"publisher": "fatalDesign",
     "contributes": {
         "themes": [
             {
@@ -17,5 +27,8 @@
                 "path": "./themes/Son of Hammsidian-color-theme.json"
             }
         ]
-    }
+    },
+    "__metadata": {
+		"publisherDisplayName": "Bernardo Baldiviezo"
+	}
 }

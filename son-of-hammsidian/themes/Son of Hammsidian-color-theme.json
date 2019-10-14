@@ -148,7 +148,8 @@
 		{
 			"name": "IDs",
 			"scope": [
-				"entity.other.attribute-name.id"
+				"entity.other.attribute-name.id",
+				"keyword.control.at-rule.media" 
 			],
 			"settings": {
 				"foreground": "#bcbcbc",

@@ -1,13 +1,12 @@
-# README
-## This is the README for your extension "son-of-hammsidian"
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+# Son of Hammsidian
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
+Son of Hammsidian Theme for VS Code, based on  George Raptis's Brackets.io theme - which is a variation of John Hamm's Hammsidian dark theme.
 
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+## Install
+In Visual Studio Code, run `ext install son-of-hammsidian` - or, simply hit `CMD/CTRL + Shift + P`, search for "Install Extension", and then search for "Hammsidian".
 
-**Enjoy!**
+## Contributions
+Contributions are welcome, especially support for more languages and keywords. https://github.com/soulrelic616/theme-hammsidian
+
+## License
+MIT, please see LICENSE for details. Copyright (c) 2019 Bernardo Baldiviezo.

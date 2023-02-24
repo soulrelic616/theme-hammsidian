@@ -9,4 +9,4 @@ In Visual Studio Code, run `ext install son-of-hammsidian` - or, simply hit `CMD
 Contributions are welcome, especially support for more languages and keywords. https://github.com/soulrelic616/theme-hammsidian
 
 ## License
-MIT, please see LICENSE for details. Copyright (c) 2019 Bernardo Baldiviezo.
+MIT, please see LICENSE for details. Copyright (c) 2023 Bernardo Baldiviezo.

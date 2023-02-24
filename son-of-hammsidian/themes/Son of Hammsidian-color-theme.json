@@ -1,6 +1,5 @@
 {
-	"tokenColors": [
-		{
+	"tokenColors": [{
 			"settings": {
 				"background": "#293134",
 				"foreground": "#bcbcbc"
@@ -26,7 +25,8 @@
 				"variable.parameter",
 				"meta.tag",
 				"declaration.tag",
-				"entity.name.tag.html"
+				"entity.name.tag.html",
+				"entity.name.tag.vue-html",
 			],
 			"settings": {
 				"fontStyle": "",
@@ -36,7 +36,11 @@
 		{
 			"name": "Attributes",
 			"scope": [
-				"entity.other.attribute-name"
+				"entity.other.attribute-name",
+				"meta.block.open.vue",
+				"meta.block.style.vue",
+				"meta.block.close.vue",
+				"invalid.deprecated.entity.other.attribute-name.html"
 			],
 			"settings": {
 				"foreground": "#678CB1"
@@ -139,7 +143,13 @@
 			"scope": [
 				"entity.name.function.php",
 				"meta.function-call.php",
-				"punctuation.terminator.expression.php"
+				"punctuation.terminator.expression.php",
+				"punctuation.section.property-list.begin.bracket.curly.css",
+				"meta.property-list.css",
+				"punctuation.section.media.begin.bracket.curly.css",
+				"meta.at-rule.media.body.css",
+				"meta.embedded.block.css",
+				"meta.block.style.vue",
 			],
 			"settings": {
 				"foreground": "#bcbcbc",
@@ -193,7 +203,7 @@
 			"scope": [
 				"entity.name.tag.localname",
 				"entity.name.type.class",
-				"support.constant.media-type.media"
+				"support.constant.media-type.media",
 			],
 			"settings": {
 				"fontStyle": "",
@@ -296,15 +306,16 @@
 		"editor.foreground": "#bcbcbc",
 		"editor.lineHighlightBackground": "#373a3f",
 		"editor.selectionBackground": "#3d4c4e",
-    "editor.selectionHighlightBackground": "#303b3d",
-    "editorCursor.foreground": "#bcbcbc",
-    "editorGutter.background": "#1b1b1b",
-    "editorIndentGuide.background": "#343b3f",
-    "editorRuler.foreground": "#343b3f",
-    "editorError.foreground": "#c94a4a",
-    "editorWarning.foreground": "#93c763",
-    "editorInfo.foreground": "#4B4E55",
-		"editorWhitespace.foreground": "#4B4E55"
+		"editor.selectionHighlightBackground": "#303b3d",
+		"editorCursor.foreground": "#bcbcbc",
+		"editorGutter.background": "#1b1b1b",
+		"editorIndentGuide.background": "#343b3f",
+		"editorRuler.foreground": "#343b3f",
+		"editorError.foreground": "#c94a4a",
+		"editorWarning.foreground": "#93c763",
+		"editorInfo.foreground": "#4B4E55",
+		"editorWhitespace.foreground": "#4B4E55",
+
 	},
 	"name": "Son of Hammsidian"
 }

@@ -1,4 +1,7 @@
+node_modules
+.vscode-test/
 _assets/
+*.vsix
 .DS_Store
 .brackets.json
 *.psd

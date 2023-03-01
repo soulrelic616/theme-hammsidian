@@ -10,3 +10,23 @@ Contributions are welcome, especially support for more languages and keywords. h
 
 ## License
 MIT, please see LICENSE for details. Copyright (c) 2023 Bernardo Baldiviezo.
+
+### 0.0.1
+
+Initial release
+ 
+### 0.0.2
+
+Minor improvements to styles
+
+### 0.0.3
+
+Minor improvements to styles
+
+### 0.0.4
+
+Adds better support for Vue files
+
+### 0.0.5
+
+Improvements to the gutter colouring
